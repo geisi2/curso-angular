@@ -1,5 +1,5 @@
 <h1> Hello World - Angular </h1>
-
+<!--
 <app-primeiro-componente></app-primeiro-componente>
 <app-dados-pai [nome] = "userName" [dadosUsu] = "userData" ></app-dados-pai>
 <app-diretivas></app-diretivas>
@@ -7,3 +7,28 @@
 <app-eventos></app-eventos>
 <app-emitter></app-emitter>
 <app-list-render></app-list-render>
+<app-pipes></app-pipes>
+<app-two-way-biding></app-two-way-biding>
+-->
+
+<nav>
+    <h1>Curso Angular</h1>
+    <ul>
+        <li><a routerlink = "/">Home</a></li>
+        <li><a routerlink = "/diretivas">Diretivas</a></li>
+        <li><a routerlink = "/if-render">If</a></li>
+        <li><a routerlink = "/eventos">Eventos</a></li>
+        <li><a routerlink = "/emitter">Emitter</a></li>
+        <li><a routerlink = "/list">Animais</a></li>
+        <li><a routerlink = "/pipes">Pipes</a></li>
+        <li><a routerlink = "/two-way-biding">two-way-biding</a></li>
+    </ul>
+</nav>
+<section>
+    <h3>Seja bem vindo ao projeto Curso-Angular </h3>
+    <p>Este projeto é uma introdução ao framawork Angular </p>
+    <router-outlet></router-outlet>
+</section>
+<footer>
+    Geisiane Silva Jeronimo &copy; 2023
+</footer>
